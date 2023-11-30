@@ -7,7 +7,7 @@
  1. Clone o repositório:
  <code>git clone https://github.com/FfcoFernandes/Classificadora.git</code>
  2. Navegue para o diretório do projeto:
- <code>cd Classificadora-de-Imagen</code>
+ <code>cd Classificadora</code>
  3. Instale as dependências:
  <code>pip install -r requirements.txt</code>
  4. Use a interface gráfica para carregar e classificar imagens.

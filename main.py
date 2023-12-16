@@ -12,7 +12,7 @@ def main():
         [sg.Button('Abrir Imagem', size=(20, 1)), sg.Button('Classificar', size=(20, 1))]
     ]
 
-    window = sg.Window('Classificadora de Imagens', layout, element_justification='c', resizable=True, finalize=True)
+    window = sg.Window('Classificadora de Imagens', layout, element_justification='c', resizable=False, finalize=True)
     filename = ""
 
     while True:
@@ -21,7 +21,7 @@ def main():
         if event == sg.WINDOW_CLOSED:
             break
         elif event == 'Abrir Imagem':
-            filename = sg.popup_get_file('Selecione uma imagem', file_types=(("Imagens", "*.png;*.jpg;*.jpeg;*.gif;*.bmp")))
+            filename = sg.popup_get_file('Selecione uma imagem', file_types=(("Imagens", "*.png;*.jpg;*.jpeg;*.gif;*.bmp"),))
 
             if filename:
                 pil_image = Image.open(filename).resize((256, 256))

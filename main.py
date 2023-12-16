@@ -21,7 +21,7 @@ def main():
         if event == sg.WINDOW_CLOSED:
             break
         elif event == 'Abrir Imagem':
-            filename = sg.popup_get_file('Selecione uma imagem', file_types=(("Imagens", "*.png;*.jpg;*.jpeg;*.gif;*.bmp"),))
+            filename = sg.popup_get_file('Selecione uma imagem', file_types=(("Imagens", "*.png;*.jpg;*.jpeg;*.gif;*.bmp")))
 
             if filename:
                 pil_image = Image.open(filename).resize((256, 256))
@@ -43,6 +43,9 @@ if __name__ == '__main__':
         exit()
     os.system('cls')
 
+    print("Carregando modelo de I.A...")
     import model
+    os.system('cls')
+
     main()
 

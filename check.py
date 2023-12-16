@@ -18,3 +18,5 @@ def check_pth():
             return True
         else:
             return False
+    else:
+        return True

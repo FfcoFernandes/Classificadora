@@ -8,7 +8,7 @@ def check_pth():
 
     if not os.path.exists('./modelo_treinado.pth'):
         print("Para funcionamento da I.A é necessário instalar o arquivo '.pth' de configuração.")
-        print("Deseja baixar agora? (Cerca de 40MB serão utilizados)")
+        print("Deseja baixar agora? (Cerca de 18MB serão utilizados)")
 
         r = input("(s/n): ").lower()
 

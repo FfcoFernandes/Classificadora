@@ -1,7 +1,5 @@
 # Classificadora de Imagens
  Modelo simples de I.A para classificação de imagens de cachorros e gatos usando <b>PyTorch</b>. <br>
- Treinado com 10.000 imagens para cada classe <b>(20.000 total)</b> <br>
- <code>classes = ["Gato", "Cachorro"]</code>
 
 # Como Usar
  1. Clone o repositório:
@@ -11,6 +9,7 @@
  3. Instale as dependências:
  <code>pip install -r requirements.txt</code>
  4. Use a interface gráfica para carregar e classificar imagens.
+ <code>python main.py</code>
 
 # Requisitos
 * Python >= 3.8, <=3.11

@@ -10,7 +10,7 @@
  <code>pip install -r requirements.txt</code>
  4. Primeiro ligue o servidor flask
  <code>cd server && python server.py</code>
- 4.2. Abra o arquivo index.html no seu navegador e use a interface gráfica para carregar e classificar imagens.
+ 5. Abra o arquivo index.html no seu navegador e use a interface gráfica para carregar e classificar imagens.
  <code>cd client && index.html</code>
 
 

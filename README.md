@@ -8,10 +8,9 @@
  <code>cd Classificadora</code>
  3. Instale as dependências:
  <code>pip install -r requirements.txt</code>
- 4. Use a interface gráfica para carregar e classificar imagens.
- 4.1. Primeiro ligue o servidor flask
+ 4. Primeiro ligue o servidor flask
  <code>cd server && python server.py</code>
- 4.2. Abra o arquivo index.html no seu navegador
+ 4.2. Abra o arquivo index.html no seu navegador e use a interface gráfica para carregar e classificar imagens.
  <code>cd client && index.html</code>
 
 
